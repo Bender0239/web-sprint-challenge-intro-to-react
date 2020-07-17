@@ -7,8 +7,8 @@ const StyledChar = styled.div`
     img{
         border-radius: 10px;
     }
-    img{
-        box-shadow: 4px 3px 8px #00FF7F;
+    img:hover{
+        box-shadow: 4px 3px 16px #00FF7F;
     }
     div{
         
@@ -18,6 +18,7 @@ const StyledChar = styled.div`
 
         h4, p{
             margin-top: 10px; 
+            text-shadow: .5px .5px 1px #00FF7F;
         }
     }
 `
