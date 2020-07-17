@@ -3,17 +3,30 @@ import styled from 'styled-components'
 
 const StyledChar = styled.div`
     margin: 15px;
-    color: white;
+    color: #00FF7F;
+    img{
+        border-radius: 10px;
+    }
+    div{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h4, p{
+            margin-top: 10px; 
+        }
+    }
 `
 
 const Character = (props) => {
     const { data } = props
-    console.log(data)
+    //console.log(data)
     return (
         <StyledChar>
             <img src={data.image}></img>
-            <h4>Name: {data.name}</h4>
             <div>
+                <h4>Name: {data.name}</h4>
                 <p>Status: {data.status}</p>
                 <p>Species: {data.species}</p>
             </div>

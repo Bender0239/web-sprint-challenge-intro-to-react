@@ -6,8 +6,10 @@ import CharacterContainer from './components/CharacterContainer.js'
 
 
 const StyledApp = styled.div`
-  h1{
-    color: white;
+font-family: 'Roboto', sans-serif;  
+h1{
+    color: #00FF7F;
+    font-size: 4rem;
   }
 `
 

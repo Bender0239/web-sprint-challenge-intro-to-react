@@ -6,7 +6,7 @@ const StyledCon = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    
 `
 
 const CharacterContainer = (props) => {
