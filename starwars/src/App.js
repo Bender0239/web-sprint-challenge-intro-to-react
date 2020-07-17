@@ -6,10 +6,13 @@ import CharacterContainer from './components/CharacterContainer.js'
 
 
 const StyledApp = styled.div`
-font-family: 'Roboto', sans-serif;  
+font-family: 'Roboto', sans-serif;
+
 h1{
+    margin-top: 20px;      
     color: #00FF7F;
     font-size: 4rem;
+    text-shadow: 2px 1px 2px #00FF7F;
   }
 `
 

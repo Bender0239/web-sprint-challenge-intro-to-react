@@ -7,6 +7,9 @@ const StyledChar = styled.div`
     img{
         border-radius: 10px;
     }
+    img{
+        box-shadow: 4px 3px 8px #00FF7F;
+    }
     div{
         
         display: flex;
